@@ -1,0 +1,27 @@
+{
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "获取当前标签页站点Cookie",
+    "default_popup": "cookies.html",
+    "default_icon": {
+      "19": "icons/default19.png",
+      "38": "icons/default38.png"
+    }
+  },
+  "description": "获取当前标签页站点Cookie",
+  "icons": {
+    "48": "icons/cookie.png",
+    "96": "icons/cookie@2x.png"
+  },
+  "homepage_url": "https://github.com/so86/get-cookiestr",
+  "manifest_version": 2,
+  "name": "Get Cookies",
+  "version": "0.1",
+  "permissions": [
+    "cookies",
+    "activeTab",
+    "tabs",
+    "<all_urls>",
+    "contextMenus"
+  ]
+}
