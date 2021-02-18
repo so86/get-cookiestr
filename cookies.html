@@ -6,13 +6,19 @@
   </head>
 
   <body>
-    <div class="panel">
-      <div class="panel-section panel-section-header margin padding">
-        <div class="text-section-header" id="header-title"></div>
+    <div class="main-panel">
+      <div class="panel">
+        <div class="panel-section panel-section-header margin padding">
+          <div class="text-section-header" id="header-title"></div>
+        </div>
       </div>
-      <textarea id="cookie-text" rows="8"></textarea>
-      <button id="btn" type="button" class="center btn btn-warning btn-xs btn-block" data-clipboard-target="#cookie-text"></button>
-      <div id="message" class="text-bold margin"></div>
+      <div class="panel center">
+        <textarea id="cookie-text" rows="8" class=""></textarea>
+      </div>
+      <div class="panel center">
+        <button id="btn" type="button" class="center btn btn-warning btn-sm btn-block" data-clipboard-target="#cookie-text"></button>
+      </div>
+      <div id="message" class="panel text-bold"></div>
     <script src="cookies.js"></script>
     <script src="clipboard.min.js"></script>
     </div>

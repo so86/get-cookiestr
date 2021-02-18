@@ -3,14 +3,16 @@ html{
 }
 body {
   width: 500px;
+  font-size:14px;
 }
-
+.main-panel{
+}
 .panel {
   text-align: center;
-  padding: 5px;
+  padding: 2px 5px;
 }
 .panel-section-header{background-color:rgb(230, 230, 230);border:solid 1px rgb(230, 230, 230);border-radius:3px;}
-#header-title{font-weight:bolder;}
+#header-title{font-weight:bolder;font-size:16px;}
 textarea{
   margin:5px;
   width:99%;
@@ -18,6 +20,7 @@ textarea{
 .center{text-align:center;}
 #btn{
   letter-spacing: 0.7em;
+  text-align: center;
 }
 .btn {
   display: inline-block;
@@ -474,6 +477,11 @@ fieldset[disabled] .btn-link:focus {
 .btn-block {
   display: block;
   width: 100%;
+}
+.btn-md-block {
+  display: block;
+  width: 60%;
+  text-align:center;
 }
 .btn-block + .btn-block {
   margin-top: 5px;
